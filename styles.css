@@ -50,10 +50,10 @@ header nav ul li a {
     display: inline-table;
     flex-direction: row;
     width: 22%;
-    margin: 11%;
+    margin: 10%;
     padding: 1rem;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    border: 50px solid #ddd;
+    border-radius: 50px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .produit img {
