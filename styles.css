@@ -1,0 +1,115 @@
+/* Réinitialisation des marges */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Style de l'en-tête */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+header h1 {
+    display: inline;
+}
+
+header nav ul {
+    list-style: none;
+    float: right;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Section Produits */
+.produits-section {
+    display: flex; 
+    justify-content: center;
+    padding: 2rem;
+    text-align: center;
+}
+
+.produit {
+    display: inline-block;
+    flex-direction: row;
+    width: 22%;
+    margin: 1%;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.produit img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.produit h3 {
+    margin: 1rem 0 0.5rem;
+}
+
+.produit p {
+    font-size: 0.9rem;
+}
+
+.produit button {
+    background: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Pied de page */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Media Queries pour la réactivité */
+@media (max-width: 768px) {
+    .produit {
+        width: 45%;
+    }
+}
+
+@media (max-width: 576px) {
+    header nav ul {
+        float: none;
+        text-align: center;
+    }
+    .produit {
+        width: 100%;
+    }
+}
+.produit img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.c{
+    color: rgb(8, 180, 14);
+}
