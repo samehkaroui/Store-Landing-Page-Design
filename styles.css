@@ -20,7 +20,7 @@ header {
 }
 
 header h1 {
-    display: inline;
+    display: flex;
 }
 
 header nav ul {
@@ -42,15 +42,15 @@ header nav ul li a {
 .produits-section {
     display: flex; 
     justify-content: center;
-    padding: 2rem;
+    padding: 01rem;
     text-align: center;
 }
 
 .produit {
-    display: inline-block;
+    display: inline-table;
     flex-direction: row;
     width: 22%;
-    margin: 1%;
+    margin: 11%;
     padding: 1rem;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -59,7 +59,7 @@ header nav ul li a {
 .produit img {
     max-width: 100%;
     height: auto;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .produit h3 {
@@ -213,4 +213,10 @@ header {
 
 .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -6px);
+}
+.pro {
+   display: flex;
+    justify-content: center;
+    padding: 01rem;
+    text-align: center;
 }
